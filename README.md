@@ -30,7 +30,7 @@ Bu fonksiyon kendi yazdığımız şifreleme fonksiyonunu, anahtarı normalde al
 Pythonun içine gömülü fonksiyonları kullanarak metindeki karakterleri onluk sisteme geçirip(ASCII tablosundaki yerlerini bulup) bunu alfabadeki sisteme(0-25 arasına) döndürüp(65/97 çıkarma) 26 ile modunu alıp harflerin sınırına çıkmamasını sağlıyoruz, sonrasında da şifrelememizi sağlayacak anahtar ile toplayıp tekrardan ASCII tablosunda döndürerek(65/97 ekleyerek) çıktıya ekliyoruz.Çözüm içinde tam tersi geçerlidir.
 
 ## Notlar
-Türkçe karakterler diğer karakterlere göre ASCII tablosunda farklı yerlerde bulunduğu için fonksiyonlarımızın matematiksel hesaplamaların dışında kalmakta ve şifrenin kırılması açısından daha zor olduğunu düşünmekteyim.  
+Türkçe karakterler diğer karakterlere göre ASCII tablosunda farklı yerlerde bulunduğu için fonksiyonlarımızın matematiksel hesaplamaların dışında kalmaktadır.
 
 ## Örnek Çalıştırma
 ```

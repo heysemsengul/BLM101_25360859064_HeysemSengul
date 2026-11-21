@@ -27,7 +27,7 @@ Bu fonksiyon metindeki her bir karakteri tek tek büyük harf ayrımına önem v
 Bu fonksiyon kendi yazdığımız şifreleme fonksiyonunu, anahtarı normalde alınan değerin negatifi olarak kullanarak çağırıp kod kirliliğini azaltıp çözümlemektedir. Kodu sifrele() fonksiyonundan alındığı için burada da Türkçe karakterler değiştirilmez.
 
 ## Algoritmanın Mantığı
-Pythonun içine gömülü fonksiyonları kullanarak metindeki karakterleri onluk sisteme geçirip(ASCII tablosundaki yerlerini bulup)  bunu alfabadeki sisteme(0-26 arasına) döndürüp(65 çıkarma) sonrasında da şifrelememizi sağlayacak anahtar ile toplayıp tekrardan ASCII tablosunda döndürerek(65 ekleyerek) çıktıya ekliyoruz.Çözüm içinde tam tersi geçerlidir.
+Pythonun içine gömülü fonksiyonları kullanarak metindeki karakterleri onluk sisteme geçirip(ASCII tablosundaki yerlerini bulup) bunu alfabadeki sisteme(0-25 arasına) döndürüp(65/97 çıkarma) 26 ile modunu alıp harflerin sınırına çıkmamasını sağlıyoruz, sonrasında da şifrelememizi sağlayacak anahtar ile toplayıp tekrardan ASCII tablosunda döndürerek(65/97 ekleyerek) çıktıya ekliyoruz.Çözüm içinde tam tersi geçerlidir.
 
 ## Notlar
 Türkçe karakterler diğer karakterlere göre ASCII tablosunda farklı yerlerde bulunduğu için fonksiyonlarımızın matematiksel hesaplamaların dışında kalmakta ve şifrenin kırılması açısından daha zor olduğunu düşünmekteyim.  

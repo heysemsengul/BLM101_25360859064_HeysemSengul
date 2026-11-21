@@ -1,7 +1,7 @@
 # ASCII Dönüştürücü ve Sezar Şifreleme/Çözme Konsolu
 
 ## Öğrenci Bilgileri
-- Ad Soyad: Heysen Şengül
+- Ad Soyad: Heysem Şengül
 - Öğrenci No: 25360859064
 - Ders: BLM101 Bilgisayar Mühendisliğine Giriş
 

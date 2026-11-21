@@ -33,6 +33,7 @@ Pythonun içine gömülü fonksiyonları kullanarak metindeki karakterleri onluk
 Türkçe karakterler diğer karakterlere göre ASCII tablosunda farklı yerlerde bulunduğu için fonksiyonlarımızın matematiksel hesaplamaların dışında kalmakta ve şifrenin kırılması açısından daha zor olduğunu düşünmekteyim.  
 
 ## Örnek Çalıştırma
+```
 ===== ASCII & Sezar =====
 1 - ASCII tablosu göster
 2 - Şifrele
@@ -70,6 +71,5 @@ Cozulmus Metin: Merhaba, Dünya!
 3 - Şifre çöz
 0 - Çıkış
 Seçiniz: 0
-Cikis Yapiliyor! 
-
-Process finished with exit code 0
+Cikis Yapiliyor!
+```

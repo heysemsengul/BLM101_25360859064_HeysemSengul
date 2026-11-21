@@ -1,6 +1,6 @@
 #Modulerleştirmek için gereken fonksiyonların tanımlanması
 
-#Bu fonksyion metindeki her bir karakteri alıp ilk önce onluk tabanda
+#Bu fonksiyon metindeki her bir karakteri alıp ilk önce onluk tabanda
 #sonra ikilik tabanda yazdıran ve binary dönüşümünden dolayı karakterin
 #başına gelen 0b karakterlerini stringden atıp 0 ile doldurur.
 def ascii_tablosu_goster():
